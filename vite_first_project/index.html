@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link rel="stylesheet" href="./src/general.css">
+    <style>
+      .body{
+        padding: 0px;
+        margin: 0px;
+      }
+      .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+      }
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 1000px;
+        height: 100px;
+     
+      }
+      .box:hover{
+        border: none;
+        transform: scale(1.01);
+      }
+      .box{
+        height: 100px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 10px;
+
+      }
+      #root{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: aqua;
+       
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.box{
+    margin: 20px;
+    background-color: cadetblue;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.smallround{
+    margin: 20px;
+    background-color: chocolate;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
