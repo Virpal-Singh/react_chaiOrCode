@@ -11,6 +11,7 @@ import Layout from './components/Layout/Layout.jsx'
 import Find from './components/Find/Find.jsx'
 import FindResult from './components/Find/FindResult.jsx'
 import App from './App.jsx'
+import Theme from './components/Theame/Theme.jsx'
 
 const router= createBrowserRouter(
   // [
@@ -47,6 +48,7 @@ const router= createBrowserRouter(
       <Route path='contact' element={<Contact/>}/>
       <Route path='find' element={<Find/>}/>
         <Route path='/findresult/:gitname' element={<FindResult/>}/>
+      <Route path='theme' element={<Theme/>} />
     </Route>
   )
 )

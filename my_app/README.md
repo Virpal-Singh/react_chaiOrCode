@@ -51,3 +51,8 @@ javascript
   "updated_at": "2025-06-24T05:27:53Z"
 }
 '''
+### output
+![alt text](<Screenshot 2025-07-01 174159.png>)
+![alt text](<Screenshot 2025-07-01 174252.png>)
+![alt text](image.png)
+
